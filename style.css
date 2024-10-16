@@ -1,0 +1,154 @@
+/*
+Theme Name: Constra
+Theme URI: http://breezweb.com/themes/constra
+Author: BreezWeb
+Author URI: http://breezweb.com/
+Description: Basic WordPress theme with Elementor.
+Version: 1.0.0
+Tested up to: 6.0
+Requires PHP: 7.0
+License: GNU General Public License v2 or later
+License URI: LICENSE
+Text Domain: constra
+Tags: custom-background, custom-logo, custom-menu, featured-images, threaded-comments, translation-ready
+*/
+
+
+.site-logo{
+    font-size: 25px;
+    font-weight: 600;
+    color: #23282d;
+}
+
+.page-item.active .page-link{
+    margin-right: 8px;
+    color: #111;
+    background-color: #ffb600;
+    border-color: #ffb600;
+    font-weight: 600;
+}
+
+
+.widget_categories ul, .widget_archive ul{
+    list-style: none;
+    padding: 0;
+}
+
+.widget_categories ul li, .widget_archive ul li{
+    line-height: normal;
+    color: #303030;
+}
+
+.widget_categories ul li a, .widget_archive ul li a{
+    color: #303030;
+    padding: 15px 0; 
+    font-weight: 400;
+    border-bottom: 1px solid #ddd;
+    display: block;
+    transition: 400ms;
+}
+
+
+.widget_tag_cloud ul{
+    list-style: none;
+    padding: 0;
+    overflow: hidden;  
+}
+
+.widget_tag_cloud ul li{
+    float: left;
+    margin: 3px;
+    line-height: 30px;
+    overflow: hidden;
+}
+
+.tagcloud a{
+    border: 1px solid #dadada;
+    color: #303030;
+    display: block;
+    font-size: 14px !important;
+    padding: 3px 15px;
+    transition: all 0.3s ease 0s;
+}
+
+.tagcloud a:hover{
+    background: #ffb600;
+    color: #fff !important;
+    border: 1px solid transparent;
+}
+
+
+.comment-form-cookies-consent{
+    width: 100%;
+}
+
+ul{
+    list-style: none;
+    padding: 0;
+}
+
+
+p.comment-notes, p.comment-form-cookies-consent, p.logged-in-as{
+    margin-left: 14px;
+}
+
+
+.form-submit{
+    margin-left: 14px !important;
+}
+
+.footer-about img{
+    width: 200px;
+}
+
+.button-add-media{
+    cursor: pointer;
+    background-color: #f0f0f1;
+    color: #2c3338;
+}
+
+#menu-footer-widget-menu li{
+    padding: 6px 0;
+}
+
+#menu-footer-widget-menu li::before{
+    font-family: "Font Awesome 5 Free";
+    content: "\f105";
+    margin-right: 10px;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+#menu-footer-widget-menu a:hover{
+    color: #ffb600;
+}
+
+
+.comment-body{
+    width: 100%;
+}
+
+ol.comments-list .comment{
+    border-bottom: 1px solid #e7e7e7 !important;
+}
+
+ol.children .comment{
+    border: unset !important;
+    border-top: 1px solid #e7e7e7 !important;
+    margin-top: 20px;
+    padding-top: 20px;
+}
+
+.comment-meta{
+    display: flex;
+    justify-content: space-between;
+}
+
+.says{
+    display: none;
+}
+
+.comments-list .comment-author{
+    display: flex;
+}
+
